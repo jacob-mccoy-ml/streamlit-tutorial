@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "streamlit-tutorial-pt-1"
+version = "0.1.0"
+description = "The first part of Mission Lane DA's Streamlit tutorial series."
+authors = ["Jacob McCoy <jacob.mccoy@missionlane.com>"]
+readme = "README.md"
+packages = [{include = "streamlit_tutorial_pt_1"}]
+
+[tool.poetry.dependencies]
+python = "3.9.12"
+streamlit = "^1.25.0"
+watchdog = "^3.0.0"
+pandas = "^2.0.3"
+numpy = "^1.25.2"
+sklearn = "^0.0.post7"
+scikit-learn = "^1.3.0"
+xgboost = "^1.7.6"
+plotly = "^5.16.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
